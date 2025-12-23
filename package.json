@@ -1,0 +1,25 @@
+{
+    "name": "national-pension-demo",
+    "version": "1.0.0",
+    "description": "My Pension Rescue - 국민연금 지속가능성 진단 및 시나리오 시뮬레이터",
+    "scripts": {
+        "build:presentation": "marp docs/presentation.md -o index.html --html",
+        "serve": "marp docs/presentation.md -s --html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tlstn3172/national-pension-demo.git"
+    },
+    "keywords": [
+        "pension",
+        "simulation",
+        "korea",
+        "marp",
+        "presentation"
+    ],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@marp-team/marp-cli": "^3.4.0"
+    }
+}
